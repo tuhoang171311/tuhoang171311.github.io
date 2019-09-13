@@ -2,32 +2,171 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="1.css">
+	<title>Hoang's CV</title>
+	<!-- Load font awesome -->
+	<link rel="stylesheet" href="assets/vendors/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Load google font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+
+	<!-- Load main stylesheet -->
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-		<div class="menu">
-		<a href="index.html">Trang chủ</a>
-		<a href="gallery.html">trang gallery</a>
-	</div>
-	<h1>Đinh Võ Hoàng </h1>
-	<br>
-	<hr>
-	<div class="thongtin">
-		<b>Tên: </b><i>Đinh Võ Hoàng</i>
-	</div>
-	<div class="thongtin">
-		<b>Địa chỉ: </b><i>Việt Nam</i>
-	</div>
-	<div class="thongtin">
-		<b>Điện Thoại:</b> <i>0355189744</i>
-	</div>
-	<div class="thongtin">
-		<b>Tuổi:</b><i>20</i>
-	</div>
-	<div class="thongtin">
-		<b>Giới tính:</b><i>Nam</i>
-	</div>
-	<h1><img src="images/01.jpg" alt="" width="600px"></h1>
+	<div class="wrapper flex">
+		<div class="sidebar">
+			<div class="avatar">
+				<img src="assets/img/avartar.jpg" width="215" height="215" alt="Đinh Võ Hoàng" />
+				<h1 class="name">Đinh Võ Hoàng</h1>
+				<h4 class="job">Developer</h4>
+			</div><!-- .avatar -->
+
+			<div class="module">
+				<h3 class="module__title">
+					<i class="fa fa-user circle circle--medium"></i>
+					<span>About Me</span>
+				</h3>
+				<div class="module__content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+			</div><!-- End .module #1 -->
+
+			<div class="module">
+				<h3 class="module__title">
+					<i class="fa fa-address-book-o circle circle--medium"></i>
+					<span>Contact Me</span>
+				</h3>
+				<div class="module__content">
+					<ul>
+						<li class="flex">
+							<i class="fa fa-map-marker circle circle--small circle--white"></i>
+							<div>239/3 đường Tây Thạnh, phường Tây Thạnh, Quận Tân Phú</div>
+						</li>
+						<li class="flex">
+							<i class="fa fa-globe circle circle--small circle--white"></i>
+							<div>tuhoang171311.github.io<br>tuhoang171311@gmail.com</div>
+						</li>
+						<li class="flex">
+							<i class="fa fa-mobile circle circle--small circle--white"></i>
+							<div>0355189744</div>
+						</li>
+					</ul>
+				</div>
+			</div><!-- End .module #2 -->
+
+			<div class="module module--progress">
+				<h3 class="module__title">
+					<i class="fa fa-graduation-cap circle circle--medium"></i>
+					<span>My Skills</span>
+				</h3>
+				<div class="module__content">
+					<ul>
+						<li class="flex">
+							<i class="fa fa-paint-brush circle circle--small circle--white"></i>
+							<div class="flex--1">
+								<span>Adobe Photoshop</span>
+								<span class="progress-bar"><span style="width:50%"></span></span>
+							</div>
+						</li>
+						<li class="flex">
+							<i class="fa fa-html5 circle circle--small circle--white"></i>
+							<div class="flex--1">
+								<span>HTML / CSS / JS</span>
+								<span class="progress-bar"><span style="width:80%"></span></span>
+							</div>
+						</li>
+						<li class="flex">
+							<i class="fa fa-android circle circle--small circle--white"></i>
+							<div class="flex--1">
+								<span>C# Development</span>
+								<span class="progress-bar"><span style="width:80%"></span></span>
+							</div>
+						</li>
+						<li class="flex">
+							<i class="fa fa-globe circle circle--small circle--white"></i>
+							<div class="flex--1">
+								<span>Web Design</span>
+								<span class="progress-bar"><span style="width:65%"></span></span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!-- End .module #3 -->
+			
+		</div><!-- End .sidebar -->
+		<div class="content">
+			<div class="section">
+				<h2 class="section__title">
+					<i class="fa fa-briefcase circle circle--large"></i>
+					<span>Work Experience</span>
+				</h2>
+				<div class="section__content">
+					<div class="module">
+						<h3 class="module__title">Creative Designer</h3>
+						<div class="module__meta">
+							<span><i class="fa fa-building-o"></i>Google Inc USA</span>
+							<span><i class="fa fa-calendar"></i>20 Sep 2010-Current</span>
+						</div>
+						<div class="module__content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div><!-- End .module #4 -->
+
+					<div class="module">
+						<h3 class="module__title">Android Developer</h3>
+						<div class="module__meta">
+							<span><i class="fa fa-building-o"></i>Google Inc USA</span>
+							<span><i class="fa fa-calendar"></i>20 Sep 2010-Current</span>
+						</div>
+						<div class="module__content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div><!-- End .module #5 -->
+
+					<div class="module">
+						<h3 class="module__title">Senior Artist & Director</h3>
+						<div class="module__meta">
+							<span><i class="fa fa-building-o"></i>Google Inc USA</span>
+							<span><i class="fa fa-calendar"></i>20 Sep 2010-Current</span>
+						</div>
+						<div class="module__content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div><!-- End .module #6 -->
+				</div><!-- End .section__content -->
+			</div><!-- End .section #1 -->
+
+			<div class="section">
+				<h2 class="section__title">
+					<i class="fa fa-briefcase circle circle--large"></i>
+					<span>Work Experience</span>
+				</h2>
+				<div class="section__content">
+					<div class="module">
+						<h3 class="module__title">Creative Designer</h3>
+						<div class="module__meta">
+							<span><i class="fa fa-building-o"></i>Google Inc USA</span>
+							<span><i class="fa fa-calendar"></i>20 Sep 2010-Current</span>
+						</div>
+						<div class="module__content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div><!-- End .module #7 -->
+
+					<div class="module">
+						<h3 class="module__title">Android Developer</h3>
+						<div class="module__meta">
+							<span><i class="fa fa-building-o"></i>Google Inc USA</span>
+							<span><i class="fa fa-calendar"></i>20 Sep 2010-Current</span>
+						</div>
+						<div class="module__content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div><!-- End .module #8 -->
+				</div><!-- End .section__content -->
+			</div><!-- End .section #2 -->
+		</div><!-- End .content -->
+	</div><!-- End .wrapper -->
 </body>
 </html>
